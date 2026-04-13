@@ -1,0 +1,18 @@
+PING 192.168.1.1 (192.168.1.1) 56(84) bytes of data.
+From 192.168.1.100 icmp_seq=1 Destination Host Unreachable
+From 192.168.1.100 icmp_seq=2 Destination Host Unreachable
+From 192.168.1.100 icmp_seq=3 Destination Host Unreachable
+From 192.168.1.100 icmp_seq=4 Destination Host Unreachable
+
+--- 192.168.1.1 ping statistics ---
+4 packets transmitted, 0 received, +4 errors, 100% packet loss, time 3067ms
+pipe 3
+PING 8.8.8.8 (8.8.8.8) 56(84) bytes of data.
+64 bytes from 8.8.8.8: icmp_seq=1 ttl=105 time=74.2 ms
+64 bytes from 8.8.8.8: icmp_seq=2 ttl=105 time=68.5 ms
+64 bytes from 8.8.8.8: icmp_seq=3 ttl=105 time=68.8 ms
+64 bytes from 8.8.8.8: icmp_seq=4 ttl=105 time=68.5 ms
+
+--- 8.8.8.8 ping statistics ---
+4 packets transmitted, 4 received, 0% packet loss, time 3005ms
+rtt min/avg/max/mdev = 68.508/70.004/74.207/2.428 ms

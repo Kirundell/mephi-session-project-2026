@@ -1,0 +1,2 @@
+# UNCONFIGURED FSTAB FOR BASE SYSTEM
+LABEL=MEPHI_DATA /data/mephi-web ext4 defaults 0 2
